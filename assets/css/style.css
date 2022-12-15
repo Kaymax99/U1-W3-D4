@@ -1,0 +1,71 @@
+body {
+  background-color: lightskyblue;
+  background-image: url(../img/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+
+#taskDiv {
+  width: 500px;
+  margin: 5em auto;
+  padding: 2em 4em;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.instructions {
+  padding-bottom: 2em;
+}
+
+#newTask {
+  width: 300px;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: solid 1px lightgray;
+  font-size: 1rem;
+}
+
+.button {
+  padding: 0.5em 3em;
+  border-radius: 5px;
+  border: none;
+  background-color: #363786;
+  color: white;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.addButton {
+  margin-left: 2em;
+}
+.removeButton {
+  margin-bottom: 0.75em;
+  padding: 0.75em 2em;
+}
+
+.task-item {
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #8f38a3;
+  color: white;
+  font-size: 1.1em;
+}
+
+.task-item:hover {
+  cursor: pointer;
+}
+
+.task-item.done {
+  text-decoration: line-through;
+  background-color: #756579;
+  color: lightgray;
+  scale: 0.9;
+}

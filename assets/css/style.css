@@ -39,6 +39,8 @@ body {
 
 .button:hover {
   cursor: pointer;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.35);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.35);
 }
 
 .addButton {
@@ -61,6 +63,8 @@ body {
 
 .task-item:hover {
   cursor: pointer;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.35);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.35);
 }
 
 .task-item.done {

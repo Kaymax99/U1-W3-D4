@@ -46,3 +46,27 @@ const removeDoneTasks = () => {
   const tasksCompleted = document.querySelectorAll(".done");
   tasksCompleted.forEach((element) => taskList.removeChild(element));
 };
+
+const selectTD = () => {
+  const foundTD = document.getElementsByTagName("div");
+  const X = Array.from(foundTD);
+  return X;
+};
+
+/* ESERCIZIO 22
+  Scrivi una funzione che, tramite un ciclo, stampa in console il testo contenuto in ogni tag <td> all'interno della pagina.
+*/
+
+const printTD = () => {
+  const foundTD = document.getElementsByTagName("td");
+  const arrayTD = Array.from(foundTD);
+  arrayTDValue = arrayTD.forEach((td) => console.log(td.innerText));
+  return arrayTDValue;
+};
+
+const addClassTR = () => {
+  const foundTR = document.getElementsByTagName("tr");
+  const arrayTR = Array.from(foundTR);
+  arrayTDValue = arrayTR.forEach((tr) => tr.classList.add("test"));
+  return arrayTDValue;
+};
